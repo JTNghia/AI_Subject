@@ -68,7 +68,7 @@ class Knapsack01Problem:
                     totalWeight += weight
                     totalValue += value
                     # print("- Adding {}: weight = {}, value = {}, accumulated weight = {}, accumulated value = {}".format(item, weight, value, totalWeight, totalValue))
-        print("- Total weight = {}, Total value = {}".format(totalWeight, totalValue))
+        # print("- Total weight = {}, Total value = {}".format(totalWeight, totalValue))
         return [totalWeight, totalValue]
 
 

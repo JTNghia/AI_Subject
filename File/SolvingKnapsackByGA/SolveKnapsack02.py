@@ -12,7 +12,7 @@ import seaborn as sns
 # import knapsack
 import numpy as np
 
-class Knapsack01Problem:
+class Knapsack02Problem:
     """This class encapsulates the Knapsack 0-1 Problem from RosettaCode.org
     """
 
@@ -68,7 +68,7 @@ class Knapsack01Problem:
                     totalWeight += weight
                     totalValue += value
                     # print("- Adding {}: weight = {}, value = {}, accumulated weight = {}, accumulated value = {}".format(item, weight, value, totalWeight, totalValue))
-        print("- Total weight = {}, Total value = {}".format(totalWeight, totalValue))
+        # print("- Total weight = {}, Total value = {}".format(totalWeight, totalValue))
         return [totalWeight, totalValue]
 
 
@@ -79,7 +79,7 @@ def GAKnapsack(i,c):
 # create the knapsack problem instance to be used:
     # global knapsack
     
-    knapsack = Knapsack01Problem(i,c)
+    knapsack = Knapsack02Problem(i,c)
 
 # Genetic Algorithm constants:b
     POPULATION_SIZE = 5000
