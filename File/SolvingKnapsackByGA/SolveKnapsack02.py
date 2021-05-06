@@ -82,10 +82,10 @@ def GAKnapsack(i,c):
     knapsack = Knapsack02Problem(i,c)
 
 # Genetic Algorithm constants:b
-    POPULATION_SIZE = 5000
+    POPULATION_SIZE = 50
     P_CROSSOVER = 0.9  # probability for crossover
     P_MUTATION = 0.1   # probability for mutating an individual
-    MAX_GENERATIONS = 5000
+    MAX_GENERATIONS = 50
     HALL_OF_FAME_SIZE = 1
 
 
