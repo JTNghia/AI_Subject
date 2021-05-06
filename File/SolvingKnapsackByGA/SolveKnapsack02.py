@@ -69,7 +69,7 @@ class Knapsack02Problem:
                     totalValue += value
                     # print("- Adding {}: weight = {}, value = {}, accumulated weight = {}, accumulated value = {}".format(item, weight, value, totalWeight, totalValue))
         # print("- Total weight = {}, Total value = {}".format(totalWeight, totalValue))
-        return [totalWeight, totalValue]
+        return [totalValue, totalWeight]
 
 
 
@@ -82,10 +82,10 @@ def GAKnapsack(i,c):
     knapsack = Knapsack02Problem(i,c)
 
 # Genetic Algorithm constants:b
-    POPULATION_SIZE = 500
+    POPULATION_SIZE = 50000
     P_CROSSOVER = 0.9  # probability for crossover
     P_MUTATION = 0.1   # probability for mutating an individual
-    MAX_GENERATIONS = 500
+    MAX_GENERATIONS = 50000
     HALL_OF_FAME_SIZE = 1
 
 
