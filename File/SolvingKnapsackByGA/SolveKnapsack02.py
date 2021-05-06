@@ -192,4 +192,4 @@ i = [
             ("book", 30, 10)
         ]
 c = 400
-print(GAKnapsack(i,c))
+# print(GAKnapsack(i,c))
