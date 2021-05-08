@@ -84,7 +84,7 @@ def GAKnapsack(i,c):
 # Genetic Algorithm constants:b
     POPULATION_SIZE = 2000
     P_CROSSOVER = 0.9  # probability for crossover
-    P_MUTATION = 0.2   # probability for mutating an individual
+    P_MUTATION = 0.15   # probability for mutating an individual
     MAX_GENERATIONS = 100
     HALL_OF_FAME_SIZE = 1
 
